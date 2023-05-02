@@ -1,0 +1,23 @@
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	long long x;
+	long long y;
+	long long c;
+	long long z;
+	cin >> x >> y>>c>>z;
+	cout <<"Difference"<<" = "<<(x*y)-(c*z);
+	
+
+
+
+
+
+
+
+}
