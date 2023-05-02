@@ -1,0 +1,23 @@
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	long long x,y;
+	cin >> x>> y;
+	int c1 = x % 10;
+	int c2 = y % 10;
+	cout << c1+c2;
+	
+
+
+
+
+
+
+
+}
