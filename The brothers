@@ -1,0 +1,28 @@
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	string x, y,c,v;
+	cin >>x>>y>>c>>v;
+	if (y == v) {
+		cout <<"ARE Brothers";
+	}
+	else {
+		cout << "NOT";
+	}
+		
+
+
+
+
+
+
+
+
+
+}
