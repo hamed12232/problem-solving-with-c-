@@ -1,0 +1,32 @@
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	long long indays;
+	cin >> indays;
+	int year = indays / 365;
+	indays -= 365 * year;
+	int month = indays / 30;
+	indays -= 30 * month;
+	cout << year << " years" << endl;
+	cout << month << " months" << endl;
+	cout << indays << " days" << endl;
+
+	
+	
+		
+
+
+
+
+
+
+
+
+
+}
