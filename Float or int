@@ -1,0 +1,22 @@
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double x;
+    cin >> x;
+    int f = x;
+    double intx = x - f;
+    if (intx !=0) {
+        cout << "float " << f << " " << intx;
+    }
+    else {
+        cout << "int " << f;
+    }
+
+
+}
+
