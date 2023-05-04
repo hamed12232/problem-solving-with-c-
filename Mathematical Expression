@@ -1,0 +1,43 @@
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int x, y,n;
+	char z,v;
+	cin >> x >> z >> y>>v>>n;
+	if (z == '+') {
+		int add = x + y;
+		if (add == n) {
+			cout << "Yes";
+		}
+		else {
+			cout << add << endl;
+		}
+	}
+	else if (z == '-') {
+		int sub = x - y;
+		if (sub == n) {
+			cout << "Yes";
+		}
+		else {
+			cout << sub << endl;
+		}
+	}
+	else if (z == '*') {
+		int mult = x * y;
+		if (mult == n) {
+			cout << "Yes";
+		}
+		else {
+			cout << mult << endl;
+		}
+		}
+	
+
+
+}
+
