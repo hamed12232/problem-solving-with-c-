@@ -1,0 +1,25 @@
+// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+	
+
+	double x, y, z, v;
+	cin >> x >> y >> z >> v;
+	double res1 = y * log(x);
+	double res2 = v * log(z);
+	if (res1 > res2) {
+		cout << "YES" << endl;
+	}
+	else {
+		cout << "NO";
+	}
+
+}
+
