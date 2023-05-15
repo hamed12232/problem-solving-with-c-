@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	int x;
+	cin >> x;
+	int z=x % 10;
+	int c = x / 10;
+//cout << z << " " << c;
+	if ( z != 0 && c % z == 0 ) {
+		cout << "YES";
+	}
+	else if (c != 0 && z % c == 0) {
+		cout << "YES";
+
+	}
+	
+	
+	else {
+		cout << "NO";
+	}
+
+
+
+}
