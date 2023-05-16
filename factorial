@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	int x;
+	cin >> x;
+	//int res = 1;
+	for (int i =0; i <x; i++) {
+		int y;
+		cin >> y;
+		long long res = 1;//عشان تعمل قيمة جديدة لكل واحدة ع حدة
+		for (int j = 1; j <= y; j++) {
+			res *=   j;//1*1*2*3*4
+		}
+		cout << res << endl;
+
+	}
+
+}
