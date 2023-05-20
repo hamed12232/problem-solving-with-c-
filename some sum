@@ -1,0 +1,40 @@
+#include <iostream>
+#include <string>
+#include <sstream>
+
+using namespace std;
+
+	
+int main() {
+	int x, y, z,s=0;
+	cin >> x >> y >> z;
+	for (int i = 1; i <= x; i++) {
+		
+		if (i / 10 == 0) {
+			if (i >= y && i <= z) {
+				s += i;
+			}
+		}
+		else {
+			int n = i;
+			int mys = 0;
+			while (n) {//هيفضل شغال طول ما الرقم ده موجب او سالب هيقف لو بقا صفر بس
+				int d = n % 10;
+				mys += d;
+				n /= 10;
+			}if (mys >= y && mys <= z) {
+				s += i;
+			}
+
+		}
+	}
+	cout << s<<endl;
+	
+	
+		
+	}
+
+	
+
+
+
