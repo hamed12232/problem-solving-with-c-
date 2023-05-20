@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+#include <sstream>
+
+using namespace std;
+
+	
+int main() {
+	int c;
+	cin >> c;
+	while (c--) {
+		int x, y;
+		cin >> x >> y;
+		int min, max,count=0;
+		if (x >= y) {
+			max = x;
+			min = y;
+		}
+		else {
+			max = y;
+			min = x;
+		}
+		for (int i = min+1; i < max; i++) {
+			if (i % 2 != 0) {
+				count += i;
+			}
+		}
+		cout << count << endl;
+
+	}
+
+	
+}
+
+
