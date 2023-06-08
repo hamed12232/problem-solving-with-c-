@@ -1,0 +1,30 @@
+// ConsoleApplication4.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int cou;
+	cin >> cou;
+	for (int i = 0; i < cou; i++) {
+		for (int z = 0; z < cou; z++) {
+			if (i == z && i != cou / 2 && z != cou / 2) {
+				cout << "\\" ;
+			}
+			else if(i == cou / 2 && z == cou / 2){
+				cout << "X";
+			}
+			else if (i==(cou-1)-z && i != cou / 2 && z != cou / 2) {
+				cout << "/";
+
+			}
+			else {
+				cout << "*" ;
+			}
+		}
+		cout << endl;
+	}
+}
+
